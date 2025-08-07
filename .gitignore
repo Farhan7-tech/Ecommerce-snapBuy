@@ -1,0 +1,9 @@
+ecom-frontend/node_modules
+ecom-frontend/build
+
+sb-ecommerce/target
+
+
+*.iml
+.idea/
+.DS_Store
