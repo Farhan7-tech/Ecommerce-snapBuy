@@ -1,0 +1,20 @@
+spring.application.name=sb-ecommerce
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+project.image=images/
+
+spring.app.jwtSecret=your_jwt_secret
+spring.app.jwtExpirationMs=3000000
+spring.ecom.app.jwtCookieName=springBootEcom
+
+server.port=8080
+image.base.url=http://localhost:8080/images/
+
+#STRIPE KEY
+stripe.secret.key=your_stripe_secret_key
