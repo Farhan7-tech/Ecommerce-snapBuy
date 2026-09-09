@@ -86,7 +86,13 @@ Ecommerce-snapBuy/
 cd sb-ecommerce
 ```
 
-Create your own `src/main/resources/application.properties` (do **not** commit real secrets) with:
+Copy the example config and fill in your own values — `application.properties` is git-ignored, so your secrets stay local:
+
+```bash
+cp src/main/resources/application.properties.example src/main/resources/application.properties
+```
+
+Then edit `src/main/resources/application.properties`:
 
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
@@ -114,7 +120,7 @@ npm run dev
 
 The app starts on `http://localhost:5173` (default Vite port).
 
-> ⚠️ **Security note:** the checked-in `application.properties` currently contains a live-looking database password and Stripe secret key. Rotate these credentials and switch to environment variables / a `.gitignore`'d config before deploying or sharing this repo further.
+> ⚠️ **Security note:** `application.properties` was previously committed with a live-looking database password and Stripe secret key. It has since been removed from tracking and added to `.gitignore` — use `application.properties.example` as your template. If you ever pushed real secrets, rotate them, since they remain visible in the repo's git history.
 
 ## 🤝 Contributing
 
