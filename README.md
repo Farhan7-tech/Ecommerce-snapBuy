@@ -1,18 +1,4 @@
-<div align="center">
-
-# 🛍️ SnapBuy
-
-**A full-stack e-commerce platform with JWT auth, product catalog, cart, and Stripe checkout.**
-
-[![Java](https://img.shields.io/badge/Java-17-orange)](#)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4-brightgreen)](#)
-[![React](https://img.shields.io/badge/React-18-61DAFB)](#)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791)](#)
-[![Stripe](https://img.shields.io/badge/Payments-Stripe-635BFF)](#)
-
-</div>
-
----
+<a href="https://github.com/Farhan7-tech/Ecommerce-snapBuy"><img src=".github/assets/banner.svg" width="100%" alt="SnapBuy: add to cart, pay, done. Spring Boot + React e-commerce."></a>
 
 ## 📖 About
 
@@ -129,3 +115,7 @@ Issues and pull requests are welcome — fork the repo, create a feature branch,
 ## 📄 License
 
 No license specified yet.
+
+<br>
+
+<a href="https://github.com/Farhan7-tech"><img src=".github/assets/footer.svg" width="100%" alt="Built by Mohd Farhan. More projects on GitHub."></a>
